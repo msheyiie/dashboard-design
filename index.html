@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard-design</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="container">
+
+
+    <aside id="aside-left" class="aside-left show">  
+
+      <svg id="hide-aside-left" class="icon-heart" xmlns=" www.w3.org/2000/svg" xmlns:xlink=" www.w3.org/1999/xlink" version="1.1"    id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" width="35px" height="35px"style="enable-background:new 0 0 512 512;" xml:space="preserve"><g><g>
+            <g>
+                <path d="M256,0C114.615,0,0,114.616,0,256s114.615,256,256,256s256-114.616,256-256S397.385,0,256,0z M256,380.198    c0,0-133.571-82.945-133.571-156.963c0-40.175,32.568-72.743,72.743-72.743c25.446,0,47.828,13.076,60.828,32.865    c13-19.79,35.381-32.865,60.828-32.865c40.174,0,72.743,32.568,72.743,72.743C389.571,297.253,256,380.198,256,380.198z" data-original="#000000" class="active-path" fill="#7e7ce9"/>
+            </g>
+        </g></g> 
+      </svg>
+      
+      <div class="menu">
+
+          <div class="icon-cont"> 
+              <div class="icon schedule">
+                  <svg xmlns=" www.w3.org/2000/svg" width="17px" height="17px" viewBox="0 0 512 512"><g><path d="m453.332031 512h-394.664062c-32.363281 0-58.667969-26.304688-58.667969-58.667969v-352c0-32.363281 26.304688-58.664062 58.667969-58.664062h394.664062c32.363281 0 58.667969 26.300781 58.667969 58.664062v352c0 32.363281-26.304688 58.667969-58.667969 58.667969zm-394.664062-437.332031c-14.699219 0-26.667969 11.964843-26.667969 26.664062v352c0 14.699219 11.96875 26.667969 26.667969 26.667969h394.664062c14.699219 0 26.667969-11.96875 26.667969-26.667969v-352c0-14.699219-11.96875-26.664062-26.667969-26.664062zm0 0" data-original="#000000" class="active-path" fill="#000000"/><path d="m496 202.667969h-480c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h480c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0" data-original="#000000" class="active-path" fill="#000000"/><path d="m122.667969 128c-8.832031 0-16-7.167969-16-16v-96c0-8.832031 7.167969-16 16-16s16 7.167969 16 16v96c0 8.832031-7.167969 16-16 16zm0 0" data-original="#000000" class="active-path" fill="#000000"/><path d="m389.332031 128c-8.832031 0-16-7.167969-16-16v-96c0-8.832031 7.167969-16 16-16s16 7.167969 16 16v96c0 8.832031-7.167969 16-16 16zm0 0" data-original="#000000" class="active-path" fill="#000000"/></g> </svg>
+              </div>
+              <a href= "">Schedule</a>
+          </div>
+
+          <div class="icon-cont">
+              <div class="icon workouts ">
+              <svg xmlns=" www.w3.org/2000/svg" id="Capa_1" enable-background="new 0 0 512 512" width="17px" height="17px" viewBox="0 0 512 512"><g><g><path d="m509.804 193.115-68.943-68.943 15.91-15.91c2.929-2.929 2.929-7.678 0-10.606l-5.303-5.303 37.122-37.123c2.929-2.929 2.929-7.678 0-10.606l-21.213-21.214c-1.407-1.407-3.314-2.197-5.304-2.197s-3.896.79-5.304 2.197l-37.123 37.123-5.303-5.303c-1.407-1.407-3.314-2.197-5.304-2.197s-3.896.79-5.304 2.197l-15.909 15.91-68.941-68.943c-2.929-2.929-7.677-2.929-10.607 0l-63.64 63.639c-1.406 1.406-2.196 3.314-2.196 5.303s.79 3.897 2.196 5.303l79.55 79.55-168.196 168.195-79.549-79.549c-2.93-2.929-7.678-2.929-10.607 0l-63.64 63.64c-2.929 2.929-2.929 7.678 0 10.606l68.943 68.943-15.91 15.91c-2.929 2.929-2.929 7.678 0 10.606l5.303 5.303-37.123 37.124c-2.929 2.929-2.929 7.678 0 10.606l21.213 21.213c1.407 1.407 3.314 2.197 5.304 2.197s3.896-.79 5.304-2.197l37.123-37.123 5.303 5.303c1.407 1.407 3.314 2.197 5.304 2.197s3.896-.79 5.304-2.197l15.909-15.91 68.943 68.943c1.465 1.464 3.385 2.197 5.304 2.197s3.839-.732 5.304-2.197l63.64-63.64c2.929-2.929 2.929-7.678 0-10.606l-79.55-79.55 168.195-168.195 79.549 79.549c1.465 1.464 3.385 2.197 5.304 2.197s3.839-.732 5.304-2.197l63.64-63.64c1.406-1.406 2.196-3.314 2.196-5.303s-.792-3.895-2.198-5.302zm-47.731-153.795 10.606 10.607-31.819 31.819-10.607-10.607zm-53.033 31.819 31.82 31.82-10.607 10.607-31.82-31.82zm-359.114 210.623 180.313 180.312-10.606 10.606-180.313-180.312zm0 190.918-10.606-10.607 31.82-31.819 10.606 10.606zm53.033-31.82-31.819-31.819 10.606-10.606 31.819 31.819zm95.46 53.034-180.312-180.313 10.606-10.606 180.313 180.313zm42.427-42.427-180.313-180.312 10.607-10.607 180.313 180.313zm-63.64-106.067-10.606-10.606 168.195-168.195 10.606 10.606zm263.655-93.948-180.313-180.313 10.607-10.607 15.911 15.91c1.464 1.465 3.384 2.197 5.303 2.197s3.839-.732 5.304-2.197c2.929-2.929 2.929-7.678-.001-10.606l-15.91-15.909 10.607-10.607 180.311 180.313-10.606 10.606-143.189-143.19c-2.93-2.929-7.678-2.929-10.607 0s-2.929 7.678 0 10.606l143.189 143.19zm42.426-42.426-180.312-180.313 10.606-10.606 180.313 180.312z" data-original="#000000" class="active-path" fill="#000000"/></g></g> </svg>
+
+              </div>
+              <a href= "">Workouts</a>
+          </div>
+
+          <div class="icon-cont">
+              <div class="icon exercises">
+                  <svg xmlns=" www.w3.org/2000/svg" width="17px" height="17px" viewBox="-85 0 512 512"><g><path d="m26.667969 298.667969h94.226562l-19.453125 183.914062c-.085937.554688-.109375 2.195313-.109375 2.75 0 14.699219 11.96875 26.667969 26.667969 26.667969 8.363281 0 16.339844-4.011719 21.632812-11.09375l186.367188-266.238281c3.433594-4.589844 5.332031-10.261719 5.332031-16 0-14.699219-11.964843-26.667969-26.664062-26.667969h-115.328125l19.199218-162.175781c.0625-.617188.105469-2.539063.105469-3.15625.023438-14.699219-11.945312-26.667969-26.644531-26.667969-8.363281 0-16.339844 4.011719-21.800781 11.328125l-164.84375 244.652344c-3.457031 4.5625-5.355469 10.257812-5.355469 16.019531 0 14.699219 11.96875 26.667969 26.667969 26.667969zm157.546875-250.902344-18.753906 158.335937c-.53125 4.542969.894531 9.085938 3.925781 12.5 3.027343 3.414063 7.382812 5.378907 11.96875 5.378907h123.09375l-169.003907 241.425781 19.15625-181.074219c.46875-4.503906-.980468-9.023437-4.007812-12.394531-3.050781-3.351562-7.382812-5.269531-11.925781-5.269531h-101.953125zm0 0" data-original="#000000" class="active-path" fill="#000000"/></g> </svg>
+              
+              </div>
+              <a href= "">Exercises</a>
+          </div>      
+
+          <div class="icon-cont">
+          <div class="icon meals">
+              <svg xmlns=" www.w3.org/2000/svg" xmlns:xlink=" www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 495.935 495.935" style="enable-background:new 0 0 495.935 495.935;" xml:space="preserve"><g><g>
+                  <g>
+                      <path d="M492.192,274.151c-0.393-0.491-0.813-0.96-1.258-1.405l-17.355-17.354c9.486-14.881,11.174-33.435,4.528-49.783    l0.701-0.401c0.281-0.214,0.548-0.448,0.798-0.698c0.484-0.339,0.931-0.729,1.332-1.164c0.659-0.85,1.201-1.784,1.611-2.779    c0.177-0.56,0.293-1.137,0.348-1.722c0.093-0.344,0.164-0.693,0.21-1.046v-31.746c-0.05-0.407-0.131-0.809-0.243-1.203    c0.907-3.642-0.761-7.436-4.057-9.23l-230.4-131.658c-2.623-1.5-5.844-1.5-8.467,0L9.542,155.621    c-3.297,1.794-4.965,5.589-4.057,9.231c-0.111,0.394-0.193,0.796-0.243,1.203V197.8c0.047,0.352,0.117,0.701,0.21,1.043    c0.054,0.588,0.172,1.169,0.35,1.732c0.189,0.5,0.426,0.981,0.708,1.434c0.256,0.476,0.559,0.926,0.905,1.342    c0.399,0.432,0.843,0.819,1.325,1.157c0.251,0.251,0.519,0.485,0.802,0.701l0.701,0.401c-5.959,14.737-5.23,31.336,1.999,45.494    L2.875,265.15c-2.527,3.762-3.439,8.38-2.533,12.821c0.874,4.443,3.491,8.35,7.267,10.85l2.586,1.724L9.567,290.9    c-2.643,1.497-4.291,4.287-4.325,7.325c0.003,0.65,0.082,1.297,0.233,1.929c-0.106,0.379-0.184,0.765-0.233,1.155v31.742    c0.047,0.353,0.117,0.702,0.21,1.045c0.055,0.586,0.171,1.164,0.348,1.725c0.19,0.504,0.43,0.989,0.715,1.446    c0.254,0.472,0.555,0.918,0.897,1.331c0.401,0.434,0.847,0.824,1.331,1.163c0.25,0.251,0.517,0.484,0.799,0.698l46.9,26.813    v29.183c-0.004,4.709,3.81,8.529,8.519,8.533c0.005,0,0.009,0,0.014,0c0.622,0,1.243-0.068,1.85-0.204l39.779-8.848    l133.338,76.194c1.211,0.659,2.572,0.992,3.95,0.967c1.759-0.001,3.489-0.451,5.025-1.308l145.925-83.36l52.867,7.93    c0.419,0.065,0.843,0.097,1.267,0.096c4.712-0.001,8.532-3.821,8.533-8.533v-35.322l21.292-12.136    c0.281-0.214,0.548-0.447,0.798-0.696c0.487-0.34,0.936-0.732,1.34-1.168c0.658-0.85,1.201-1.784,1.613-2.778    c0.176-0.56,0.292-1.137,0.346-1.721c0.094-0.345,0.165-0.695,0.212-1.05v-29.773l6.425-5.14    C496.892,292.248,498.082,281.508,492.192,274.151z M244.175,41.2l213.2,121.829l-213.2,121.825l-213.2-121.825L244.175,41.2z     M466.042,177.733v15.116L252.708,314.761v-15.127L466.042,177.733z M22.308,177.733l213.333,121.902v15.127L22.308,192.849    V177.733z M56.442,347.614L22.308,328.1v-15.061l5.235,2.998l1.94,7.758c1.89,7.604,8.723,12.938,16.558,12.925h10.4V347.614z     M56.442,319.654H46.033l-2.856-11.428l-0.016-0.066l-3.245-12.985c-1.025-4.116-3.552-7.7-7.083-10.05L17.075,274.62    l7.898-11.846l31.469,18.155V319.654z M73.508,385.813v-95.036L192.4,359.371L73.508,385.813z M131.364,390.429l19.059-4.239    l2.106,1.202l4.246,12.675c0.983,3.115,2.849,5.877,5.372,7.952L131.364,390.429z M235.642,450.015l-68.864-39.35    c3.31,1.277,6.929,1.521,10.38,0.702l0,0l18.133-4.546l3.541,13.929c2.145,9.124,11.279,14.781,20.403,12.637    c1.998-0.47,3.895-1.298,5.597-2.445l1.808-1.198l9,5.124V450.015z M252.708,449.968v-15.112l3.094-1.767l2.498,1.244    c4.033,2.073,8.732,2.432,13.033,0.996c4.32-1.416,7.896-4.498,9.933-8.563l4.692-9.471c0.169-0.345,0.314-0.701,0.433-1.067    l5.425-16.25l19.083,9.542c3.16,1.485,6.696,1.978,10.142,1.413L252.708,449.968z M318.392,394.184l-18.942-9.471    c-8.409-4.203-18.634-0.794-22.838,7.615c-0.363,0.726-0.673,1.477-0.929,2.247l-5.275,15.654l-4.425,8.867l-22.092-11.004    c-5.469-2.728-11.977-2.332-17.075,1.037l-11.408,7.563l-3.558-14.008c-2.295-9.151-11.556-14.724-20.717-12.467l-18.142,4.538    l-4.234-12.643l45.511-10.123l17.115,9.874c7.921,4.55,17.662,4.55,25.583,0l19.567-11.289c0.181,0.039,0.322,0.157,0.508,0.184    l52.99,7.948L318.392,394.184z M331.598,404.902c0.146-0.18,0.321-0.327,0.461-0.515l17.156-22.803l18.377,2.757L331.598,404.902z     M440.442,378.013l-140.321-21.047l140.321-80.959V378.013z M248.433,367.079c-2.636,1.517-5.88,1.517-8.516,0l-19.412-11.199    c-0.166-0.112-0.338-0.195-0.51-0.295L28.408,245.054c-5.465-9.334-6.585-20.589-3.067-30.817l214.6,122.637    c2.623,1.5,5.844,1.5,8.467,0l214.6-122.637c3.519,10.228,2.399,21.483-3.067,30.817L248.433,367.079z M466.042,328.093    l-8.533,4.864v-9.2l8.533-6.827V328.093z M457.508,301.899V266.16l1.906-1.1c0.177,0.311,0.376,0.61,0.594,0.894l18.859,18.859    L457.508,301.899z" data-original="#000000" class="active-path" fill="#000000"/>
+                  </g>
+              </g></g> </svg>
+              
+          
+          </div>
+          <a href= "">Meals</a>
+          </div>
+
+          <div class="icon-cont">
+          <div class="icon program">
+              <svg xmlns=" www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" width="17px" height="17px" viewBox="0 0 128 128"><g><path d="M109.675,55.574,99.57,53.536a36.825,36.825,0,0,0-3.024-7.281l5.71-8.594a1.749,1.749,0,0,0-.22-2.2l-9.492-9.492a1.749,1.749,0,0,0-2.2-.22l-8.594,5.71a36.825,36.825,0,0,0-7.281-3.024l-2.038-10.1a1.749,1.749,0,0,0-1.715-1.4H57.289a1.749,1.749,0,0,0-1.715,1.4L53.536,28.43a36.825,36.825,0,0,0-7.281,3.024l-8.594-5.71a1.748,1.748,0,0,0-2.2.22l-9.492,9.492a1.749,1.749,0,0,0-.22,2.2l5.71,8.594a36.825,36.825,0,0,0-3.024,7.281l-10.1,2.038a1.749,1.749,0,0,0-1.4,1.715V70.711a1.749,1.749,0,0,0,1.4,1.715L28.43,74.464a36.825,36.825,0,0,0,3.024,7.281l-5.71,8.594a1.749,1.749,0,0,0,.22,2.2l9.492,9.492a1.748,1.748,0,0,0,2.2.22l8.594-5.71a36.825,36.825,0,0,0,7.281,3.024l2.038,10.105a1.749,1.749,0,0,0,1.715,1.4H70.711a1.749,1.749,0,0,0,1.715-1.4L74.464,99.57a36.825,36.825,0,0,0,7.281-3.024l8.594,5.71a1.752,1.752,0,0,0,2.2-.22l9.492-9.492a1.749,1.749,0,0,0,.22-2.2l-5.71-8.594a36.825,36.825,0,0,0,3.024-7.281l10.105-2.038a1.749,1.749,0,0,0,1.4-1.715V57.289A1.749,1.749,0,0,0,109.675,55.574Zm-2.1,13.7-9.754,1.967a1.747,1.747,0,0,0-1.346,1.273,33.4,33.4,0,0,1-3.5,8.415,1.748,1.748,0,0,0,.053,1.852l5.511,8.3-7.465,7.465-8.3-5.511a1.748,1.748,0,0,0-1.852-.053,33.4,33.4,0,0,1-8.415,3.5,1.747,1.747,0,0,0-1.273,1.346l-1.967,9.754H58.721l-1.967-9.754a1.747,1.747,0,0,0-1.273-1.346,33.4,33.4,0,0,1-8.415-3.5,1.751,1.751,0,0,0-1.852.053l-8.3,5.511-7.465-7.465,5.511-8.3a1.748,1.748,0,0,0,.053-1.852,33.4,33.4,0,0,1-3.495-8.415,1.747,1.747,0,0,0-1.346-1.273l-9.754-1.967V58.721l9.754-1.967a1.747,1.747,0,0,0,1.346-1.273,33.4,33.4,0,0,1,3.495-8.415,1.748,1.748,0,0,0-.053-1.852l-5.511-8.3,7.465-7.465,8.3,5.511a1.746,1.746,0,0,0,1.852.053,33.4,33.4,0,0,1,8.415-3.495,1.747,1.747,0,0,0,1.273-1.346l1.967-9.754H69.279l1.967,9.754a1.747,1.747,0,0,0,1.273,1.346,33.4,33.4,0,0,1,8.415,3.495,1.746,1.746,0,0,0,1.852-.053l8.3-5.511,7.465,7.465-5.511,8.3a1.748,1.748,0,0,0-.053,1.852,33.4,33.4,0,0,1,3.5,8.415,1.747,1.747,0,0,0,1.346,1.273l9.754,1.967Z" data-original="#000000" class="active-path" fill="#000000"/><path d="M64,39.877A24.123,24.123,0,1,0,88.123,64,24.151,24.151,0,0,0,64,39.877Zm0,44.746A20.623,20.623,0,1,1,84.623,64,20.647,20.647,0,0,1,64,84.623Z" data-original="#000000" class="active-path" fill="#000000"/><path d="M64,47.215A16.785,16.785,0,1,0,80.785,64,16.8,16.8,0,0,0,64,47.215Zm0,30.07A13.285,13.285,0,1,1,77.285,64,13.3,13.3,0,0,1,64,77.285Z" data-original="#000000" class="active-path" fill="#000000"/></g> </svg>  
+          </div>
+          <a href= "">Programs</a>
+          </div>
+  
+          <div class="icon-cont">
+          <div class="icon messages">
+              <svg xmlns=" www.w3.org/2000/svg" xmlns:xlink=" www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><g><g>
+                  <g>
+                      <path d="M438.957,19.477H73.043C32.766,19.477,0,52.244,0,92.52v246.961c0,40.276,32.766,73.043,73.043,73.043h28.663    l0.561,64.483c0.05,5.943,3.463,11.344,8.809,13.942c2.173,1.056,4.512,1.575,6.84,1.575c3.399,0,6.773-1.106,9.565-3.262    l99.425-76.738h212.051c40.277,0,73.043-32.767,73.043-73.043V92.52C512,52.244,479.234,19.477,438.957,19.477z M480.696,339.482    c0,23.015-18.724,41.739-41.739,41.739H221.569c-3.46,0-6.823,1.147-9.563,3.261l-78.711,60.75l-0.422-48.495    c-0.074-8.591-7.06-15.516-15.651-15.516H73.043c-23.015,0-41.739-18.724-41.739-41.739V92.52    c0-23.015,18.724-41.739,41.739-41.739h365.915c23.015,0,41.739,18.724,41.739,41.739V339.482z" data-original="#000000" class="active-path" fill="#000000"/>
+                  </g>
+              </g></g> </svg>
+              
+          </div>
+          <a href= "">Messages</a>
+          </div>
+
+          <div class="icon-cont">
+          <div class="icon profile">
+              <svg xmlns=" www.w3.org/2000/svg" xmlns:xlink=" www.w3.org/1999/xlink" width="17px" height="17px" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><g><g>
+                  <g>
+                      <path d="M437.02,330.98c-27.883-27.882-61.071-48.523-97.281-61.018C378.521,243.251,404,198.548,404,148    C404,66.393,337.607,0,256,0S108,66.393,108,148c0,50.548,25.479,95.251,64.262,121.962    c-36.21,12.495-69.398,33.136-97.281,61.018C26.629,379.333,0,443.62,0,512h40c0-119.103,96.897-216,216-216s216,96.897,216,216    h40C512,443.62,485.371,379.333,437.02,330.98z M256,256c-59.551,0-108-48.448-108-108S196.449,40,256,40    c59.551,0,108,48.448,108,108S315.551,256,256,256z" data-original="#000000" class="active-path" fill="#000000"/>
+                  </g>
+              </g></g> </svg>
+          </div>
+         <a href= "">Profile</a>
+          </div>
+      </div>
+    </aside> 
+
+    <main>
+
+      <section class="main-padded">
+
+      
+        <header>
+
+          <svg id="bring-aside-left" class="icon-heart" xmlns=" www.w3.org/2000/svg" xmlns:xlink=" www.w3.org/1999/xlink" version="1.1"     id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" width="35px" height="35px"style="enable-background:new 0 0 512 512;" xml:space="preserve"><g><g>
+            <g>
+                <path d="M256,0C114.615,0,0,114.616,0,256s114.615,256,256,256s256-114.616,256-256S397.385,0,256,0z M256,380.198    c0,0-133.571-82.945-133.571-156.963c0-40.175,32.568-72.743,72.743-72.743c25.446,0,47.828,13.076,60.828,32.865    c13-19.79,35.381-32.865,60.828-32.865c40.174,0,72.743,32.568,72.743,72.743C389.571,297.253,256,380.198,256,380.198z" data-original="#000000" class="active-path" fill="#7e7ce9"/>
+            </g>
+          </g></g> 
+          </svg>
+
+          <form action="" method="post">
+
+            <label id="label" for="input">
+                <svg  xmlns=" www.w3.org/2000/svg" xmlns:xlink=" www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><g><g>
+                    <g>
+                        <path d="M225.474,0C101.151,0,0,101.151,0,225.474c0,124.33,101.151,225.474,225.474,225.474    c124.33,0,225.474-101.144,225.474-225.474C450.948,101.151,349.804,0,225.474,0z M225.474,409.323    c-101.373,0-183.848-82.475-183.848-183.848S124.101,41.626,225.474,41.626s183.848,82.475,183.848,183.848    S326.847,409.323,225.474,409.323z" data-original="#000000" class="active-path" fill="#000000"/>
+                    </g>
+                </g><g>
+                    <g>
+                        <path d="M505.902,476.472L386.574,357.144c-8.131-8.131-21.299-8.131-29.43,0c-8.131,8.124-8.131,21.306,0,29.43l119.328,119.328    c4.065,4.065,9.387,6.098,14.715,6.098c5.321,0,10.649-2.033,14.715-6.098C514.033,497.778,514.033,484.596,505.902,476.472z" data-original="#000000" class="active-path" fill="#000000"/>
+                    </g>
+                </g></g> 
+              </svg>            
+            </label>            
+
+            <input class="input-box" id="input" type="text" name="Search" placeholder="Search...">
+          </form>
+          
+          <div class="header_sub">
+
+          <div class="notification-cont">
+            
+            <svg class="notification" xmlns=" www.w3.org/2000/svg" xmlns:xlink=" www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 229.238 229.238" style="enable-background:new 0 0 229.238 229.238;" xml:space="preserve" ><g><path d="M220.228,172.242c-20.606-17.82-39.675-42.962-39.675-105.734c0-36.353-29.576-65.928-65.93-65.928  c-36.359,0-65.939,29.575-65.939,65.928c0,62.829-19.062,87.946-39.686,105.751C3.28,177.239,0,184.411,0,191.937  c0,4.142,3.358,7.5,7.5,7.5h71.175c3.472,16.663,18.268,29.222,35.944,29.222s32.473-12.558,35.944-29.222h71.175  c4.142,0,7.5-3.358,7.5-7.5C229.238,184.35,225.95,177.167,220.228,172.242z M114.619,213.659c-9.34,0-17.321-5.929-20.381-14.222  H135C131.94,207.73,123.959,213.659,114.619,213.659z M17.954,184.437c0.273-0.296,0.564-0.578,0.871-0.845  c31.443-27.146,44.858-62.162,44.858-117.084c0-28.082,22.852-50.928,50.939-50.928c28.083,0,50.93,22.846,50.93,50.928  c0,54.872,13.417,89.887,44.876,117.091c0.307,0.265,0.598,0.544,0.872,0.838H17.954z" data-original="#000000" class="active-path" fill="#000000"/></g> </svg>
+          
+            <span class="notification-alert"></span>
+          </div>
+
+          <span class="user">
+
+            <a href=""> <span class="user-icon">M</span> <abbr class="user-icon expand" title="Milton Salazar">M</abbr> <span class="user-name"> Milton Salazar </span></a>
+            <a class="down-arrow" href= ""><svg xmlns=" www.w3.org/2000/svg" xmlns:xlink=" www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 451.846 451.847" style="enable-background:new 0 0 451.846 451.847;" xml:space="preserve"><g transform="matrix(-1.42798e-16 0.777355 -0.777355 -1.42798e-16 401.546 50.3011)"><g>
+              <path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744   L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284   c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z" data-original="#000000" class="active-path" fill="#000000"/>
+            </g></g> </svg></a>
+            
+          </span>
+
+
+
+
+        </header>
+
+        <div class="sub-main">
+          
+          <div class="sub-main-padded">
+
+            <input class="mob" type="text" name="Search" placeholder="Search...">
+
+            <hgroup>
+              <h1 class="header__sub-menu"><a href= "">My schedule</a></h1>
+              <h1 class="header__sub-menu sec"><a href= "">Trainer schedule</a></h1>
+              <h1 class="header__sub-menu"><a href= "">Gym schedule</a></h1>
+            </hgroup>
+
+            <div class="full-date">
+              <p class="day">TODAY</p>
+              <div class="date-nav">
+                <p class="date">24 Aug 2020</p>
+                <p>&lt <span class="gt">&gt</span></p>
+              </div>
+            </div>
+
+            <div class="event"> 
+              <div class="calendar-preview">
+                  <img src="src/images/calendar3.JPG" alt="calendar-preview">
+              </div>
+              <div class="upcoming-event">
+                  <div class="upcoming__event-sub">
+                      <div class="paper-calendar">
+                      <img src="src/icons/day.svg" alt="paper-calendar">
+                      </div>
+                      <div class="upcoming-event-text">
+                      <p class="week">Next Week</p>
+                      <p class="upcoming-schedules">Upcoming schedules - 2</p>
+                      </div>
+                  </div>
+                  
+                  <p ><a class="open" href="">OPEN</a></p>
+
+              </div>
+            </div> 
+
+            <div  id="more-calendar" class="more-calendar"><svg  xmlns=" www.w3.org/2000/svg" xmlns:xlink=" www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 451.846 451.847" style="enable-background:new 0 0 451.846 451.847;" xml:space="preserve"><g transform="matrix(-1.42798e-16 0.777355 -0.777355 -1.42798e-16 401.546 50.3011)"><g>
+              <path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744   L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284   c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z" data-original="#000000" class="active-path" fill="#000000"/>
+            </g></g> </svg></div>
+
+            <div id="full-calendar" class="aside-right-sub2">
+              <div class="month-year">
+                <p>&lt</p>
+                <p class="AUG2018">AUG 2018</p>
+                <p>&gt</p>
+      
+              </div>
+        
+              <img class="full-calendar" src="src/images/calendar2.JPG" alt="">
+
+            </div>
+
+            <section class="categories">
+
+              <section class="section class">
+                <div class="section-header">
+                    <h2><a href="">CLASS</a></h2>
+                    <p>12 classes upcoming</p>
+                </div>
+
+                <div class="section-items">
+
+                  <div class="section-item">
+                      <div class="section__sub-item"> 
+                        <img class="rep" src="src/images/bruce-mars-gJtDg6WfMlQ-unsplash.jpg" alt="">
+                          
+                        <div class="rep-details">
+                          <h3><a href="">Class name #1</a></h3>
+                            <p>10:30 AM - 11:00 AM</p>
+                            <p class="author">By Justin Daniel <span class="rate"> 3.5</span>
+                        </div>
+                      </div>
+
+                        <a href="" class="dots">...</a>
+              
+                  </div>
+
+                  <div class="section-item">
+                      <div class="section__sub-item"> 
+                        <img class="rep" src="src/images/jonathan-borba-R0y_bEUjiOM-unsplash.jpg" alt="">
+                          
+                        <div class="rep-details">
+                          <h3><a href="">Class name #1</a></h3>
+                          <p>10:30 AM - 11:00 AM</p>
+                          <p class="author">By Justin Daniel <span class="rate"> 3.5</span>
+                        </div>
+                      </div>
+
+                        <a href="" class="dots">...</a>
+              
+                  </div>
+
+                  <div class="section-item">
+                    <div class="section__sub-item"> 
+                      <img class="rep" src="src/images/damir-spanic-22L7do1cOho-unsplash.jpg" alt="">
+                        
+                      <div class="rep-details">
+                        <h3><a href="">Class name #1</a></h3>
+                        <p>10:30 AM - 11:00 AM</p>
+                        <p class="author">By Justin Daniel <span class="rate"> 3.5</span>
+                      </div>
+                    </div>
+
+                      <a href="" class="dots">...</a>
+            
+                  </div>
+
+                  <div class="section-item last">
+                    <div class="section__sub-item"> 
+                      <img class="rep" src="src/images/jonathan-borba-R0y_bEUjiOM-unsplash.jpg" alt="">
+                        
+                      <div class="rep-details">
+                        <h3><a href="">Class name #1</a></h3>
+                        <p>10:30 AM - 11:00 AM</p>
+                        <p class="author">By Justin Daniel <span class="rate"> 3.5</span>
+                      </div>
+                    </div>
+
+                      <a href="" class="dots">...</a>
+            
+                  </div>
+
+                </div>
+
+                     
+
+
+              </section>
+
+              <section class="section session">
+                <div class="section-header">
+                    <h2> <a href=""> SESSION</a></h2>
+                    <p>12 classes upcoming</p>
+                </div>
+
+                <div class="section-items">
+
+                  <div class="section-item">
+                      <div class="section__sub-item"> 
+                        <img class="rep" src="src/images/bruce-mars-gJtDg6WfMlQ-unsplash.jpg" alt="">
+                          
+                        <div class="rep-details">
+                          <h3><a href="">Class name #1</a></h3>
+                            <p>10:30 AM - 11:00 AM</p>
+                            <p class="author">By Justin Daniel <span class="rate"> 3.5</span>
+                        </div>
+                      </div>
+
+                        <a href="" class="dots">...</a>
+              
+                  </div>
+
+                  <div class="section-item">
+                      <div class="section__sub-item"> 
+                        <img class="rep" src="src/images/jonathan-borba-R0y_bEUjiOM-unsplash.jpg" alt="">
+                          
+                        <div class="rep-details">
+                          <h3><a href="">Class name #1</a></h3>
+                          <p>10:30 AM - 11:00 AM</p>
+                          <p class="author">By Justin Daniel <span class="rate"> 3.5</span>
+                        </div>
+                      </div>
+
+                        <a href="" class="dots">...</a>
+              
+                  </div>
+
+                  <div class="section-item">
+                    <div class="section__sub-item"> 
+                      <img class="rep" src="src/images/damir-spanic-22L7do1cOho-unsplash.jpg" alt="">
+                        
+                      <div class="rep-details">
+                        <h3><a href="">Class name #1</a></h3>
+                        <p>10:30 AM - 11:00 AM</p>
+                        <p class="author">By Justin Daniel <span class="rate"> 3.5</span>
+                      </div>
+                    </div>
+
+                      <a href="" class="dots">...</a>
+            
+                  </div>
+
+                  <div class="section-item last">
+                    <div class="section__sub-item"> 
+                      <img class="rep" src="src/images/jonathan-borba-R0y_bEUjiOM-unsplash.jpg" alt="">
+                        
+                      <div class="rep-details">
+                        <h3><a href="">Class name #1</a></h3>
+                        <p>10:30 AM - 11:00 AM</p>
+                        <p class="author">By Justin Daniel <span class="rate"> 3.5</span>
+                      </div>
+                    </div>
+
+                      <a href="" class="dots">...</a>
+            
+                  </div>
+
+                </div>
+
+                     
+
+
+              </section>
+
+              
+
+            </section>
+
+          </div>
+
+          <aside class="aside-right">
+
+            <div id="full-calendar" class="aside-right-sub">
+              <div class="month-year">
+                <p>&lt</p>
+                <p class="AUG2018">AUG 2018</p>
+                <p>&gt</p>
+      
+              </div>
+        
+              <img class="full-calendar" src="src/images/calendar2.JPG" alt="">
+
+            </div>
+
+            <section class="section ALL">
+              <div class="section-header">
+                  <h2><a href="">ALL</a></h2>
+              </div>
+
+              <div class="section-items">
+
+                <div class="section-item">
+                    <div class="section__sub-item"> 
+                      <img class="rep" src="src/images/bruce-mars-gJtDg6WfMlQ-unsplash.jpg" alt="">
+                        
+                      <div class="rep-details">
+                        <h3><a href="">Class name #1</a></h3>
+                          <p>10:30 AM - 11:00 AM</p>
+                          <p class="author">By Justin Daniel <span class="rate"> 3.5</span>
+                      </div>
+                    </div>
+
+                      <a href="" class="dots">...</a>
+            
+                </div>
+
+                <div class="section-item">
+                    <div class="section__sub-item"> 
+                      <img class="rep" src="src/images/jonathan-borba-R0y_bEUjiOM-unsplash.jpg" alt="">
+                        
+                      <div class="rep-details">
+                        <h3><a href="">Class name #1</a></h3>
+                        <p>10:30 AM - 11:00 AM</p>
+                        <p class="author">By Justin Daniel <span class="rate"> 3.5</span>
+                      </div>
+                    </div>
+
+                      <a href="" class="dots">...</a>
+            
+                </div>
+
+                <div class="section-item">
+                  <div class="section__sub-item"> 
+                    <img class="rep" src="src/images/damir-spanic-22L7do1cOho-unsplash.jpg" alt="">
+                      
+                    <div class="rep-details">
+                      <h3><a href="">Class name #1</a></h3>
+                      <p>10:30 AM - 11:00 AM</p>
+                      <p class="author">By Justin Daniel <span class="rate"> 3.5</span>
+                    </div>
+                  </div>
+
+                    <a href="" class="dots">...</a>
+          
+                </div>
+
+                <div class="extra">
+                  <div class="section-item">
+                    <div class="section__sub-item"> 
+                      <img class="rep" src="src/images/bruce-mars-gJtDg6WfMlQ-unsplash.jpg" alt="">
+                        
+                      <div class="rep-details">
+                        <h3><a href="">Class name #1</a></h3>
+                          <p>10:30 AM - 11:00 AM</p>
+                          <p class="author">By Justin Daniel <span class="rate"> 3.5</span>
+                      </div>
+                    </div>
+
+                      <a href="" class="dots">...</a>
+            
+                </div>
+
+                <div class="section-item">
+                    <div class="section__sub-item"> 
+                      <img class="rep" src="src/images/jonathan-borba-R0y_bEUjiOM-unsplash.jpg" alt="">
+                        
+                      <div class="rep-details">
+                        <h3><a href="">Class name #1</a></h3>
+                        <p>10:30 AM - 11:00 AM</p>
+                        <p class="author">By Justin Daniel <span class="rate"> 3.5</span>
+                      </div>
+                    </div>
+
+                      <a href="" class="dots">...</a>
+            
+                </div>
+
+                <div class="section-item">
+                  <div class="section__sub-item"> 
+                    <img class="rep" src="src/images/damir-spanic-22L7do1cOho-unsplash.jpg" alt="">
+                      
+                    <div class="rep-details">
+                      <h3><a href="">Class name #1</a></h3>
+                      <p>10:30 AM - 11:00 AM</p>
+                      <p class="author">By Justin Daniel <span class="rate"> 3.5</span>
+                    </div>
+                  </div>
+
+                    <a href="" class="dots">...</a>
+          
+                </div>
+
+                <div class="section-item">
+                    <div class="section__sub-item"> 
+                      <img class="rep" src="src/images/bruce-mars-gJtDg6WfMlQ-unsplash.jpg" alt="">
+                        
+                      <div class="rep-details">
+                        <h3><a href="">Class name #1</a></h3>
+                          <p>10:30 AM - 11:00 AM</p>
+                          <p class="author">By Justin Daniel <span class="rate"> 3.5</span>
+                      </div>
+                    </div>
+
+                      <a href="" class="dots">...</a>
+            
+                </div>
+
+                <div class="section-item">
+                    <div class="section__sub-item"> 
+                      <img class="rep" src="src/images/jonathan-borba-R0y_bEUjiOM-unsplash.jpg" alt="">
+                        
+                      <div class="rep-details">
+                        <h3><a href="">Class name #1</a></h3>
+                        <p>10:30 AM - 11:00 AM</p>
+                        <p class="author">By Justin Daniel <span class="rate"> 3.5</span>
+                      </div>
+                    </div>
+
+                      <a href="" class="dots">...</a>
+            
+                </div>
+
+              </div>
+
+              <div class="section-item">
+                <div class="section__sub-item"> 
+                  <img class="rep" src="src/images/damir-spanic-22L7do1cOho-unsplash.jpg" alt="">
+                    
+                  <div class="rep-details">
+                    <h3><a href="">Class name #1</a></h3>
+                    <p>10:30 AM - 11:00 AM</p>
+                    <p class="author">By Justin Daniel <span class="rate"> 3.5</span>
+                  </div>
+                </div>
+
+                  <a href="" class="dots">...</a>
+        
+              </div>
+
+                <div class="section-item last">
+                  <div class="section__sub-item"> 
+                    <img class="rep" src="src/images/jonathan-borba-R0y_bEUjiOM-unsplash.jpg" alt="">
+                      
+                    <div class="rep-details">
+                      <h3><a href="">Class name #1</a></h3>
+                      <p>10:30 AM - 11:00 AM</p>
+                      <p class="author">By Justin Daniel <span class="rate"> 3.5</span>
+                    </div>
+                  </div>
+
+                    <a href="" class="dots">...</a>
+          
+                </div>
+
+              </div>
+
+                   
+
+            </section>
+                   
+            <a class="plus" href= ""><img src="src/icons/plus.svg" alt=""></a>
+          </aside>
+
+        </div>
+
+      
+
+      
+
+      </section>
+  
+
+      
+    </main>
+
+
+  </div> <!-- container -->
+  <script src="JS/script.js"></script>
+</body>
+</html>
