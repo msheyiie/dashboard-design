@@ -1,9 +1,11 @@
 document.querySelector("#bring-aside-left").addEventListener("click", function(){
   document.querySelector(".show").classList.toggle("show-aside");
+   document.body.classList.toggle("body");
 })
 
 document.querySelector("#hide-aside-left").addEventListener("click", function(){
   document.querySelector(".show").classList.toggle("show-aside");
+  document.body.classList.toggle("body");
 })
 
 document.querySelector("#more-calendar").addEventListener("click", function(){

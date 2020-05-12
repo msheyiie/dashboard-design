@@ -457,10 +457,11 @@ h3+p{
     padding: 2rem 0rem 0rem 2.5rem;
     height: 100vh;
     border-right: 1px solid rgba(155, 151, 151, 0.281);
+    overflow: auto;
 
   }
 
-  .show.show-aside{
+  .show-aside{
     display: block; 
   }
 
@@ -527,6 +528,10 @@ h3+p{
 
   form {
     padding: 1.5rem 0rem 1.5rem 4.5rem;
+  }
+
+  .body{
+    overflow: hidden;
   }
 
 }
